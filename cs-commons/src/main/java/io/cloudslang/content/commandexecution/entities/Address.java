@@ -69,6 +69,9 @@ public class Address {
         return resolvedPort;
     }
 
+    public boolean isPortSet() {
+        return this.resolvedPort != -1;
+    }
     /**
      * Return whether the host is of IPv6 format or not.
      *
